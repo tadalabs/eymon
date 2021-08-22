@@ -2,8 +2,6 @@ const Mongo = require('mongodb').MongoClient,
     MongoObjectId = require('mongodb').ObjectID;
 
 export default class DatabasingService {
-    constuctor() {}
-
     forObjectId(idString) {
         let mongoObjectId = null;
         if (idString) {
